@@ -1,7 +1,7 @@
 **Graph Clear:** MiniZinc Implementations  
 **Author:** Kyle E. C. Booth (kbooth@mie.utoronto.ca)  
-**Paper:** Morin et al (2018), "[Intruder Alert! Optimization Models for Solving the Mobile Robot Graph-Clear Problem](http://tidel.mie.utoronto.ca/pubs/GCP_Constraints_2018.pdf)", Constraints, Vol. 23 (3), 335-354, 2018.
-(Note: The code in this repo is not the code used for experiments in the paper, rather it is a simpler MiniZinc implementation intended to introduce other researchers to graph-clear.)
+**Paper:** Morin et al (2018), "[Intruder Alert! Optimization Models for Solving the Mobile Robot Graph-Clear Problem](http://tidel.mie.utoronto.ca/pubs/GCP_Constraints_2018.pdf)", Constraints, Vol. 23 (3), 335-354, 2018.  
+(Note: This code is a Python/MiniZinc implementation for graph-clear intended to introduce researchers to the problem. The research paper results are based on a C++/CP Optimizer implementation.)
 
 ### File/directory descriptions:
 
@@ -22,6 +22,8 @@
 *"checker.py":* checks .sol files in the "solutions" directory for feasbility. Outputs any solutions that are invalid (valid solutions have no output). 
 
 ### Running a model:
+
+First, ensure you have [MiniZinc](http://www.minizinc.org/) installed!
 
 From the "graph-clear" directory, the following command line example solves the "randomErdosRenyi_n5_p0.5_seed14121.dzn" with the CPN model and outputs the solution file to the "solutions" directory.
 
