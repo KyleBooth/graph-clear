@@ -4,7 +4,7 @@
 (Note: This code is a Python/MiniZinc implementation for graph-clear intended to introduce researchers to the problem. The research paper results are based on a C++/CP Optimizer implementation.)
 
 **Citation:**  
-Morin, Michael, Margarita P. Castro, Kyle EC Booth, Tony T. Tran, Chang Liu, and J. Christopher Beck. "Intruder alert! Optimization models for solving the mobile robot graph-clear problem." Constraints 23, no. 3 (2018): 335-354.
+Morin, Michael, Margarita P. Castro, Kyle E. C. Booth, Tony T. Tran, Chang Liu, and J. Christopher Beck. "Intruder alert! Optimization models for solving the mobile robot graph-clear problem." Constraints 23, no. 3 (2018): 335-354.
 ```
 @article{morin2018intruder,
   title={Intruder alert! Optimization models for solving the mobile robot graph-clear problem},
