@@ -1,6 +1,6 @@
 **Graph Clear:** MiniZinc Implementations  
 **Author:** Kyle E. C. Booth (kbooth@mie.utoronto.ca)  
-**Paper:** Morin et al (2018), "[Intruder Alert! Optimization Models for Solving the Mobile Robot Graph-Clear Problem](http://tidel.mie.utoronto.ca/pubs/GCP_Constraints_2018.pdf)", Constraints, Vol. 23 (3), 335-354, 2018.  
+**Paper:** "[Intruder Alert! Optimization Models for Solving the Mobile Robot Graph-Clear Problem](http://tidel.mie.utoronto.ca/pubs/GCP_Constraints_2018.pdf)".   
 (Note: This code is a Python/MiniZinc implementation for graph-clear intended to introduce researchers to the problem. The research paper results are based on a C++/CP Optimizer implementation.)
 
 **Citation:**  
